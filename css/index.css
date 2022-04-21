@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 1em;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+  background-color: #1D1626;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 50px;
+  background-color: #000;
+}
+header .logo {
+  padding-top: 12px;
+}
+header .container {
+  max-width: 77%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1em;
+}
+header .container .menu-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 18%;
+}
+header .container .menu-top a {
+  margin-right: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+header .container .menu-top a:hover {
+  color: #D423F1;
+  padding-bottom: 1px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border-bottom: 2px solid #D423F1;
+}
+header .container .btns {
+  margin-left: 13%;
+}
+header .container .btns a {
+  font-weight: bold;
+  color: #ffffff;
+  padding: 5px;
+}
+header .container .btns a:first-child {
+  margin-right: 30px;
+}
+header .container .btns a:hover {
+  background-color: #D423F1;
+  border: 2px solid #D423F1;
+  border-radius: 5px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.welcome {
+  margin-top: 52px;
+}
+.welcome img {
+  position: absolute;
+  z-index: -1;
+  margin-top: -82px;
+  width: 100%;
+}
+.welcome .container {
+  max-width: 77%;
+  margin: 0 auto;
+  z-index: 0;
+}
+.welcome .container h2 {
+  max-width: 48%;
+  text-align: center;
+  padding-left: 31px;
+  color: #ffffff;
+  font-size: 4em;
+  line-height: 1;
+  text-shadow: 3px 3px 2px #D423F1;
+}
+.welcome .container p {
+  max-width: 48%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 14px 31px 14px 31px;
+  background-color: rgba(212, 35, 241, 0.2);
+  border: 3px solid #D423F1;
+  text-shadow: 1px 2px #000;
+}
+.welcome .container a {
+  max-width: 48%;
+  text-align: center;
+  padding: 19px 16px 19px 16px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 3px solid #D423F1;
+  color: #D423F1;
+  border-radius: 5px;
+  margin-left: 14%;
+}
+.welcome .container a:hover {
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}

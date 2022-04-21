@@ -1,0 +1,119 @@
+@import './variables'
+    
+*
+    padding: 0
+    margin: 0
+
+html, body
+    height: 100%
+
+body
+    font-size: 1em
+    min-width: 320px
+    position: relative
+    line-height: 1.65
+    font-family: 'Inter', sans-serif
+    overflow-x: hidden
+    opacity: 1
+    background-color: $mainColor
+
+a
+    text-decoration: none
+
+li
+    list-style: none
+
+header
+    height: 50px
+    background-color: $footer
+    
+
+    .logo
+        padding-top: 12px
+
+    .container
+        max-width: 77%
+        margin: 0 auto
+        display: flex
+        align-items: center
+        font-size: 1em
+
+        .menu-top
+            display: flex
+            align-items: center
+            margin-left: 18%
+
+            a
+                margin-right: 40px
+                font-weight: bold
+                color: $textColor
+                &:hover
+                    color: $secondColor
+                    padding-bottom: 1px
+                    transition: .1s
+                    border-bottom: 2px solid $secondColor
+        
+        .btns
+            margin-left: 13%
+            a
+                font-weight: bold
+                color: $textColor
+                padding: 5px
+                &:first-child
+                    margin-right: 30px
+
+                &:hover
+                    background-color: $secondColor
+                    border: 2px solid $secondColor
+                    border-radius: 5px
+                    transition: .1s
+        
+.welcome
+    margin-top: 52px
+    img
+        position: absolute
+        z-index: -1
+        margin-top: -82px
+        width: 100%
+
+    .container
+        max-width: 77%
+        margin: 0 auto
+        z-index: 0
+
+        h2
+            max-width: 48%
+            text-align: center
+            padding-left: 31px
+            color: $textColor
+            font-size: 4em
+            line-height: 1
+            text-shadow: 3px 3px 2px $secondColor
+
+        p
+            max-width: 48%
+            text-align: center
+            margin-bottom: 30px
+            color: $textColor
+            font-weight: bold
+            padding: 14px 31px 14px 31px
+            background-color: rgba(212, 35, 241, 0.2)
+            border: 3px solid $secondColor
+            text-shadow: 1px 2px $footer
+
+        a
+            max-width: 48%
+            text-align: center
+            padding: 19px 16px 19px 16px
+            font-size: 1.5em
+            font-weight: bold
+            border: 3px solid $secondColor
+            color: $secondColor
+            border-radius: 5px
+            margin-left: 14%
+            &:hover
+                border: 3px solid $textColor
+                color: $textColor
+                transition: .1s
+
+            
