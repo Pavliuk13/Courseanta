@@ -7,6 +7,10 @@
 html, body
     height: 100%
 
+.container-d
+    max-width: 77%
+    margin: 0 auto
+
 body
     font-size: 1em
     min-width: 320px
@@ -31,9 +35,7 @@ header
     .logo
         padding-top: 12px
 
-    .container
-        max-width: 77%
-        margin: 0 auto
+    .container-d
         display: flex
         align-items: center
         font-size: 1em
@@ -69,17 +71,19 @@ header
                     transition: .1s
         
 .welcome
-    margin-top: 52px
-    img
+    height: 100vh
+    .image
         position: absolute
         z-index: -1
-        margin-top: -82px
+        margin-top: -50px
         width: 100%
+        img
+            width: 100%
 
-    .container
-        max-width: 77%
-        margin: 0 auto
-        z-index: 0
+        
+
+    .container-d
+        padding-top: 5%
 
         h2
             max-width: 48%
@@ -116,4 +120,163 @@ header
                 color: $textColor
                 transition: .1s
 
+.container-d
+    h2
+        font-size: 3em
+        color: $textColor
+        text-align: center
+    .testimonials
+        position: relative
+        margin-top: 20px
+
+        .wrapper
+            // display: grid
+            // grid-template-columns: repeat(4, 2fr)
+            display: flex
+            justify-content: space-between
+            margin-top: 40px
+
+            .testimonials-item
+                height: 520px
+                width: 255px
+                border: 2px solid $secondColor
+                border-radius: 30px
+
+
+                .comment
+                    font-size: 0.875em
+                    color: $textColor
+                    font-weight: bold
+                    padding: 0px 17px 0px 17px
+                    line-height: 1.5
+                    text-align: center
+
+                h1
+                    font-size: 1.5em
+                    color: $secondColor
+                    text-align: center
+                    padding: 0px 17px 0px 17px
+
+                .image
+                    text-align: center
+                    margin-top: 10px
+
+
+    .line
+        width: 100%
+        height: 3px
+        margin-top: 20px
+        margin-bottom: 20px
+        background-color: $secondColor
+
+    .why-people-choose
+        .block
+            display: flex
+            width: 100%
+            .image
+                text-align: right
+                margin-top: 50px
+                margin-left: 10%
+        
+        .fact
+            display: flex
+            align-items: center
+            margin-top: 50px
+            h1
+                color: $secondColor
+                font-weight: bold
+                margin-left: 20px
             
+            &:last-child
+                h1
+                    line-height: 1
+
+
+    .plan
+        display: grid
+        grid-template-columns: auto auto auto auto
+        margin-top: 40px
+
+        .element
+            margin-left: 15%
+            text-align: center
+            &:first-child
+                margin-left: 0
+
+            h1
+                font-size: 1.5em
+                color: $secondColor
+            
+            p
+                color: $textColor
+                font-weight: bold
+
+    .form
+        width: 920px
+        height: 338px
+        background-color: $secondColor
+        border-radius: 20px
+        margin: 0 auto
+
+
+        .actions
+            display: flex
+            justify-content: center
+            .inputs
+                margin-right: 5%
+                .name
+                    width: 338px
+                    height: 35px
+                    padding-bottom: 25px
+
+                    input
+                        width: 100%
+                        height: 100%
+                        padding: 12px 20px
+                        margin: 8px 0
+                        border: none
+                        border-radius: 8px
+                        box-sizing: border-box
+                        font-weight: bold
+                        color: $footer
+                
+                .button
+                    width: 185px
+                    height: 50px
+                    background-color: $mainColor
+                    border-radius: 7px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    a
+                        font-size: 1.5em
+                        font-weight: bold
+                        color: $textColor
+                        
+                        
+
+            textarea
+                width: 380px
+                padding: 12px 20px
+                margin: 8px 0
+                border: none
+                border-radius: 8px
+                box-sizing: border-box
+                font-weight: bold
+                color: $footer
+                resize: none
+
+
+footer
+    margin-top: 20px
+    height: 145px
+    width: 100%
+    background-color: $footer
+    .container-d
+        h2
+            font-size: 1.5em
+            margin-bottom: 15px
+    .logos
+        display: flex
+        justify-content: space-between
+        align-items: center

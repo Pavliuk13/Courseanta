@@ -7,6 +7,11 @@ html, body {
   height: 100%;
 }
 
+.container-d {
+  max-width: 77%;
+  margin: 0 auto;
+}
+
 body {
   font-size: 1em;
   min-width: 320px;
@@ -33,9 +38,7 @@ header {
 header .logo {
   padding-top: 12px;
 }
-header .container {
-  max-width: 77%;
-  margin: 0 auto;
+header .container-d {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +47,7 @@ header .container {
           align-items: center;
   font-size: 1em;
 }
-header .container .menu-top {
+header .container-d .menu-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,30 +56,30 @@ header .container .menu-top {
           align-items: center;
   margin-left: 18%;
 }
-header .container .menu-top a {
+header .container-d .menu-top a {
   margin-right: 40px;
   font-weight: bold;
   color: #ffffff;
 }
-header .container .menu-top a:hover {
+header .container-d .menu-top a:hover {
   color: #D423F1;
   padding-bottom: 1px;
   -webkit-transition: 0.1s;
   transition: 0.1s;
   border-bottom: 2px solid #D423F1;
 }
-header .container .btns {
+header .container-d .btns {
   margin-left: 13%;
 }
-header .container .btns a {
+header .container-d .btns a {
   font-weight: bold;
   color: #ffffff;
   padding: 5px;
 }
-header .container .btns a:first-child {
+header .container-d .btns a:first-child {
   margin-right: 30px;
 }
-header .container .btns a:hover {
+header .container-d .btns a:hover {
   background-color: #D423F1;
   border: 2px solid #D423F1;
   border-radius: 5px;
@@ -85,20 +88,21 @@ header .container .btns a:hover {
 }
 
 .welcome {
-  margin-top: 52px;
+  height: 100vh;
 }
-.welcome img {
+.welcome .image {
   position: absolute;
   z-index: -1;
-  margin-top: -82px;
+  margin-top: -50px;
   width: 100%;
 }
-.welcome .container {
-  max-width: 77%;
-  margin: 0 auto;
-  z-index: 0;
+.welcome .image img {
+  width: 100%;
 }
-.welcome .container h2 {
+.welcome .container-d {
+  padding-top: 5%;
+}
+.welcome .container-d h2 {
   max-width: 48%;
   text-align: center;
   padding-left: 31px;
@@ -107,7 +111,7 @@ header .container .btns a:hover {
   line-height: 1;
   text-shadow: 3px 3px 2px #D423F1;
 }
-.welcome .container p {
+.welcome .container-d p {
   max-width: 48%;
   text-align: center;
   margin-bottom: 30px;
@@ -118,7 +122,7 @@ header .container .btns a:hover {
   border: 3px solid #D423F1;
   text-shadow: 1px 2px #000;
 }
-.welcome .container a {
+.welcome .container-d a {
   max-width: 48%;
   text-align: center;
   padding: 19px 16px 19px 16px;
@@ -129,9 +133,198 @@ header .container .btns a:hover {
   border-radius: 5px;
   margin-left: 14%;
 }
-.welcome .container a:hover {
+.welcome .container-d a:hover {
   border: 3px solid #ffffff;
   color: #ffffff;
   -webkit-transition: 0.1s;
   transition: 0.1s;
+}
+
+.container-d h2 {
+  font-size: 3em;
+  color: #ffffff;
+  text-align: center;
+}
+.container-d .testimonials {
+  position: relative;
+  margin-top: 20px;
+}
+.container-d .testimonials .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+.container-d .testimonials .wrapper .testimonials-item {
+  height: 520px;
+  width: 255px;
+  border: 2px solid #D423F1;
+  border-radius: 30px;
+}
+.container-d .testimonials .wrapper .testimonials-item .comment {
+  font-size: 0.875em;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0px 17px 0px 17px;
+  line-height: 1.5;
+  text-align: center;
+}
+.container-d .testimonials .wrapper .testimonials-item h1 {
+  font-size: 1.5em;
+  color: #D423F1;
+  text-align: center;
+  padding: 0px 17px 0px 17px;
+}
+.container-d .testimonials .wrapper .testimonials-item .image {
+  text-align: center;
+  margin-top: 10px;
+}
+.container-d .line {
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #D423F1;
+}
+.container-d .why-people-choose .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.container-d .why-people-choose .block .image {
+  text-align: right;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.container-d .why-people-choose .fact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+.container-d .why-people-choose .fact h1 {
+  color: #D423F1;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.container-d .why-people-choose .fact:last-child h1 {
+  line-height: 1;
+}
+.container-d .plan {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 40px;
+}
+.container-d .plan .element {
+  margin-left: 15%;
+  text-align: center;
+}
+.container-d .plan .element:first-child {
+  margin-left: 0;
+}
+.container-d .plan .element h1 {
+  font-size: 1.5em;
+  color: #D423F1;
+}
+.container-d .plan .element p {
+  color: #ffffff;
+  font-weight: bold;
+}
+.container-d .form {
+  width: 920px;
+  height: 338px;
+  background-color: #D423F1;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.container-d .form .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container-d .form .actions .inputs {
+  margin-right: 5%;
+}
+.container-d .form .actions .inputs .name {
+  width: 338px;
+  height: 35px;
+  padding-bottom: 25px;
+}
+.container-d .form .actions .inputs .name input {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: bold;
+  color: #000;
+}
+.container-d .form .actions .inputs .button {
+  width: 185px;
+  height: 50px;
+  background-color: #1D1626;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container-d .form .actions .inputs .button a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
+}
+.container-d .form .actions textarea {
+  width: 380px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: bold;
+  color: #000;
+  resize: none;
+}
+
+footer {
+  margin-top: 20px;
+  height: 145px;
+  width: 100%;
+  background-color: #000;
+}
+footer .container-d h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+footer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
