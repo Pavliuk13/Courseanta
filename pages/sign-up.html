@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/sign-up.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
 </head>
 <body>
-    
+    <form>
+        <div class="logo">
+            <img src="../img/logo-2.png" alt="logo">
+        </div>
+        <div class="input-list">
+            <div class="input-item">
+                <label for="name">Прізвище та ім'я</label>
+                <input id="name" type="text" placeholder="Введіть текст">
+            </div>
+            <div class="input-item">
+                <label for="user-name">Ім'я користувача</label>
+                <input id="user_name" type="text" placeholder="Створити ім'я користувача">
+            </div>
+            <div class="input-item">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="example@email.com">
+            </div>
+            <div class="input-item">
+                <label for="pass">Пароль</label>
+                <input id="pass" type="password" placeholder="Придумайте пароль">
+                <label class="desc">Ваш пароль має містити хоча б 1 цифру, а також 1 літеру у верхньому регістрі</label>
+            </div>
+            <div class="input-item">
+                <label for="confirm_pass">Підтвердити пароль</label>
+                <input id="confirm_pass" type="password" placeholder="Підтвердіть пароль">
+                <label class="desc">Паролі мають співпадати</label>
+            </div>
+            <div class="buttons">
+                <a href="./index.html" class="back">Назад</a>
+                <a href="#" class="continue">Реєстрація</a>
+            </div>
+        </div>
+    </form>
+    <script src="https://kit.fontawesome.com/74fb05f4c1.js" crossorigin="anonymous"></script>
 </body>
 </html>
