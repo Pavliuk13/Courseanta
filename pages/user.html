@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/user.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>User page</title>
 </head>
 <body>
-    
+    <header>
+        <div class="container-d">
+            <div class="header-body">
+                <a href="#" class="header-logo">
+                    <img src="../img/logo.png" alt="logo">
+                </a>
+                <div class="header-burger">
+                    <span></span>
+                </div>
+                <nav class="header-menu">
+                    <ul class="header-list">
+                        <li><a href="../index.html" class="header-link">ГОЛОВНА</a></li>
+                        <li><a href="../pages/about.html" class="header-link">ПРО НАС</a></li>
+                        <li><a href="../pages/courses.html" class="header-link">НАШІ КУРСИ</a></li>
+                        <li><a href="../pages/cart.html" class="header-link"><img src="../img/cart.png" alt="cart"></a></li>
+                        <li><a href="../pages/user.html" class="header-link">andriy_p1</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <form>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../img/ava.png" alt="Pyatov">
+                <h1>Андрій Пятов</h1>
+            </div>
+            <div class="input-list">
+                <div class="input-item">
+                    <label for="user-name">Прізвище та ім'я</label>
+                    <input id="user_name" type="text" placeholder="Андрій Пятов">
+                </div>
+                <div class="input-item">
+                    <label for="user-name">Ім'я користувача</label>
+                    <input id="user_name" type="text" placeholder="andriy_p1">
+                </div>
+                <div class="input-item">
+                    <label for="user-name">Стать</label>
+                    <input id="user_name" type="text" placeholder="Чоловіча">
+                </div>
+                <div class="input-item">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="example@email.com">
+                </div>
+                <div class="buttons">
+                    <a href="#" class="back">ЗБЕРЕГТИ</a>
+                    <a href="#" class="continue">ВІДМІНИТИ</a>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <footer>
+        <div class="container-d">
+            <h2>НАШІ ПАРТНЕРИ</h2>
+            <div class="logos">
+                <img src="../img/epam.png" alt="epam">
+                <img src="../img/jetbrains.png" alt="jetbrains">
+                <img src="../img/SkillFactory.png" alt="SkillFactory">
+                <img src="../img/coursera.png" alt="coursera">
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
