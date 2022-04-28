@@ -63,7 +63,7 @@ form {
       -ms-flex-pack: center;
           justify-content: center;
   width: 45%;
-  height: 95%;
+  height: 65%;
   margin: 0 auto;
   border: 2px solid #D423F1;
   border-radius: 40px;
@@ -87,17 +87,17 @@ form {
 @media (max-width: 635px) {
   form {
     width: 90%;
-    height: 90%;
+    height: 60%;
   }
 }
 @media (max-width: 512px) {
   form {
-    height: 85%;
+    height: 55%;
   }
 }
 @media (max-width: 390px) {
   form {
-    height: 82%;
+    height: 50%;
   }
 }
 form .logo {
@@ -179,6 +179,10 @@ form .input-list .input-item label.desc {
   color: #84809F;
   font-weight: normal;
   width: 446px;
+}
+form .input-list .input-item label.desc a {
+  color: #2100FF;
+  font-weight: normal;
 }
 @media (max-width: 635px) {
   form .input-list .input-item label.desc {

@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/sing-in.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Sign In</title>
 </head>
 <body>
-    
+    <form>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../img/logo-2.png" alt="logo">
+            </div>
+            <div class="input-list">
+                <div class="input-item">
+                    <label for="user-name">Ім'я користувача</label>
+                    <input id="user_name" type="text" placeholder="Введіть ім'я користувача">
+                </div>
+                <div class="input-item">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="example@email.com">
+                </div>
+                <div class="input-item">
+                    <label for="pass">Пароль</label>
+                    <input id="pass" type="password" placeholder="Введіть пароль">
+                    <label class="desc">Забули пароль? Тисніть <a href="#">сюди</a></label>
+                </div>
+                <div class="buttons">
+                    <a href="./index.html" class="back">Назад</a>
+                    <a href="#" class="continue">Реєстрація</a>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <script src="https://kit.fontawesome.com/74fb05f4c1.js" crossorigin="anonymous"></script>
 </body>
 </html>
