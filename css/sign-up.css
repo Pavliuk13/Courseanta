@@ -97,7 +97,7 @@ form {
 }
 @media (max-width: 390px) {
   form {
-    height: 82%;
+    height: 100%;
   }
 }
 form .logo {

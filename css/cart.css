@@ -223,9 +223,6 @@ footer {
   height: 145px;
   width: 100%;
   background-color: #000;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
 @media (max-width: 390px) {
   footer {
