@@ -89,6 +89,7 @@ header .header-burger {
     position: relative;
     width: 30px;
     height: 20px;
+    margin-right: 5px;
   }
   header .header-burger::before, header .header-burger::after {
     content: "";
@@ -167,6 +168,13 @@ header .header-menu .header-list li {
 @media (max-width: 970px) {
   header .header-menu .header-list li {
     margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  header .header-menu .header-list li {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 95%;
   }
 }
 header .header-menu .header-list li a:hover {
@@ -1045,8 +1053,10 @@ footer {
   }
 }
 footer .container-d h2 {
+  text-align: center;
   font-size: 24px;
   margin-bottom: 15px;
+  color: #ffffff;
 }
 @media (max-width: 690px) {
   footer .container-d h2 {
