@@ -63,7 +63,7 @@ form {
       -ms-flex-pack: center;
           justify-content: center;
   width: 45%;
-  height: 65%;
+  height: 90%;
   margin: 0 auto;
   border: 2px solid #D423F1;
   border-radius: 40px;
@@ -87,12 +87,7 @@ form {
 @media (max-width: 635px) {
   form {
     width: 90%;
-    height: 60%;
-  }
-}
-@media (max-width: 512px) {
-  form {
-    height: 55%;
+    height: 90%;
   }
 }
 @media (max-width: 390px) {
